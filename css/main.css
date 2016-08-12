@@ -57,7 +57,7 @@ a:focus {
 }
 .title-small {
   font-size: 38px;
-  color: #3f51b5;
+  color: #0363f4;
   margin-bottom: 30px;
   line-height: 50px;
 }
@@ -84,7 +84,7 @@ a:focus {
   -webkit-animation-name: fadeInDown;
   animation-name: fadeInDown;
   padding: 0!important;
-  background: #3f51b5 !important;
+  background: #0363f4 !important;
 }
 .sticky-navigation .row {
   padding: 0;
@@ -287,13 +287,13 @@ a:focus {
   line-height: 80px;
   border-radius: 50%;
   font-size: 36px;
-  color: #3f51b5;
+  color: #0363f4;
 }
 #features .features h4 {
   margin-bottom: 10px;
   font-size: 20px;
   font-weight: 700;
-  color: #3f51b5;
+  color: #0363f4;
 }
 #features .features .features-text {
   padding-left: 80px;
@@ -438,7 +438,7 @@ a:focus {
   padding: 48px 0;
 }
 #cta {
-  background: #3f51b5;
+  background: #0363f4;
 }
 #cta .drawer {
   float: left;
@@ -1012,7 +1012,7 @@ a:focus {
 }
 
 .ball{
-  background-color: #3f51b5 !important
+  background-color: #0363f4 !important
 }
 
 .contentDiv {
