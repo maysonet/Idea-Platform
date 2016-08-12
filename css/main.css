@@ -410,7 +410,7 @@ a:focus {
   padding: 22px 64px;
 }
 #why {
-  background: url(../img/why-bg.jpg);
+    background: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.5) ),url(../img/community.jpeg) no-repeat;
   background-size: cover;
   color: #fff;
 }
