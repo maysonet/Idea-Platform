@@ -728,7 +728,7 @@ a:focus {
   background: #191919;
 }
 #copyright .copyright-text {
-  color: #fff;
+  color: #9e9e9e;
   margin-top: 15px;
   text-align: center;
 }
@@ -788,7 +788,7 @@ a:focus {
 .social .fa-twitter:hover {
   background: #00ACED;
 }
-.social .fa-google-plus:hover {
+.social .fa-youtube-play:hover {
   background: #DD4B39;
 }
 .social .fa-linkedin:hover {
