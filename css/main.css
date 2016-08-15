@@ -5,6 +5,7 @@ body {
   font-size: 16px;
   font-weight: 400;
   background: #fff;
+
 }
 .btn {
   font-size: 14px;
@@ -66,6 +67,7 @@ a:focus {
   transition: transform 0.4s;
   -webkit-transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
   transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+
 }
 .show-menu .content-wrap {
   -webkit-transition-delay: 0.1s;
@@ -220,7 +222,7 @@ a:focus {
   background-size: cover;
   background-position: center bottom;
   color: #fff;
-  overflow: hidden;
+  
   padding: 90px 0;
 }
 .hero-area .sticky-navigation {
@@ -273,6 +275,7 @@ a:focus {
 
 #features {
   background: #fff;
+
 }
 #features .features {
   margin: 30px 0;
@@ -1016,7 +1019,7 @@ a:focus {
 }
 
 .contentDiv {
-    background-color: transparent;
+    background: none;
     height: 130px;
     position: relative;
     width: 200px;
@@ -1039,3 +1042,11 @@ a:focus {
     position: absolute;
     width: 50px;
 }
+
+#pagetop{
+
+    margin-top: -195px;
+    background-color: transparent;
+
+    transition: background-color 0.3s linear 0s, padding 0.3s linear 0s;
+  }
