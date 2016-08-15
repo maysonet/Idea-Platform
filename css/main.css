@@ -222,7 +222,7 @@ a:focus {
   background-size: cover;
   background-position: center bottom;
   color: #fff;
-  
+
   padding: 90px 0;
 }
 .hero-area .sticky-navigation {
@@ -1045,7 +1045,7 @@ a:focus {
 
 #pagetop{
 
-    margin-top: -195px;
+    margin-top: -15%;
     background-color: transparent;
 
     transition: background-color 0.3s linear 0s, padding 0.3s linear 0s;
