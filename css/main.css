@@ -1044,8 +1044,8 @@ a:focus {
 }
 
 #pagetop{
-
-    margin-top: -15%;
+  margin-top: -15%;
+    box-shadow: none !important;
     background-color: transparent;
 
     transition: background-color 0.3s linear 0s, padding 0.3s linear 0s;
