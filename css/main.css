@@ -240,6 +240,79 @@ a:focus {
 .hero-area .contents .btn {
   margin: 15px;
 }
+.appcreatrs {
+  background: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75) ),url(../img/code.jpeg) no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  color: #fff;
+
+  padding: 90px 0;
+}
+.appcreatrs .sticky-navigation {
+  background: transparent;
+}
+.appcreatrs .contents h1 {
+  font-size: 30px;
+  font-weight: 100;
+}
+.appcreatrs .contents p {
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.appcreatrs .contents .btn {
+  margin: 15px;
+}
+
+.elicit {
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(../img/camera.jpeg) no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  color: #fff;
+
+  padding: 90px 0;
+}
+.elicit .sticky-navigation {
+  background: transparent;
+}
+.elicit .contents h1 {
+  font-size: 30px;
+  font-weight: 100;
+}
+.elicit .contents p {
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.elicit .contents .btn {
+  margin: 15px;
+}
+
+.achieve {
+  background: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75) ),url(../img/working.jpeg) no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  color: #fff;
+
+  padding: 90px 0;
+}
+.achieve .sticky-navigation {
+  background: transparent;
+}
+.achieve .contents h1 {
+  font-size: 30px;
+  font-weight: 100;
+}
+.achieve .contents p {
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.achieve .contents .btn {
+  margin: 15px;
+}
+
+
 .slider-area {
   margin-top: -1px;
 }
@@ -266,6 +339,33 @@ a:focus {
     padding: 15% 0;
   }
   .hero-area h1 {
+    font-size: 50px !important;
+  }
+}
+
+@media (min-width: 400px) {
+  .appcreatrs {
+    padding: 15% 0;
+  }
+  .appcreatrs h1 {
+    font-size: 50px !important;
+  }
+}
+
+@media (min-width: 400px) {
+  .elicit {
+    padding: 15% 0;
+  }
+  .elicit h1 {
+    font-size: 50px !important;
+  }
+}
+
+@media (min-width: 400px) {
+  .achieve {
+    padding: 15% 0;
+  }
+  .achieve h1 {
     font-size: 50px !important;
   }
 }
