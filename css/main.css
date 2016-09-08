@@ -269,7 +269,6 @@ a:focus {
   background-size: cover;
   background-position: center bottom;
   color: #fff;
-
   padding: 90px 0;
 }
 .elicit .sticky-navigation {
@@ -309,6 +308,29 @@ a:focus {
   text-transform: uppercase;
 }
 .achieve .contents .btn {
+  margin: 15px;
+}
+
+.empowered {
+  background: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75) ),url(../img/hardware.jpeg) no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  color: #fff;
+  padding: 90px 0;
+}
+.empowered .sticky-navigation {
+  background: transparent;
+}
+.empowered .contents h1 {
+  font-size: 30px;
+  font-weight: 100;
+}
+.empowered .contents p {
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.empowered .contents .btn {
   margin: 15px;
 }
 
@@ -366,6 +388,15 @@ a:focus {
     padding: 15% 0;
   }
   .achieve h1 {
+    font-size: 50px !important;
+  }
+}
+
+@media (min-width: 400px) {
+  .empowered {
+    padding: 15% 0;
+  }
+  .empowered h1 {
     font-size: 50px !important;
   }
 }
