@@ -2,7 +2,7 @@ var yPos;
 function yScroll(){
 
 
-  pagetop = document.getElementById('pagetop');
+  pagetop = document.getElementById('pagetop2');
 
   yPos = window.pageYOffset;
   if(yPos > 120){
@@ -11,8 +11,8 @@ function yScroll(){
 
 
   } else{
+
     pagetop.style.backgroundColor = "transparent";
-    pagetop2.style.backgroundColor = "transparent";
 
 
   }

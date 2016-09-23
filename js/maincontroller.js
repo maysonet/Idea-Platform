@@ -60,6 +60,19 @@ $scope.sunne = {
   }
 }
 
+$scope.appcreatrs1 = {
+  image : "img/appcreatrs1.jpg",
+  
+}
+
+
+$scope.appcreatrs3 = {
+  image : "img/appcreatrs3.jpg",
+
+}
+
+$scope.appcreatrs = [$scope.appcreatrs1, $scope.appcreatrs3];
+
 $scope.rowOne = [$scope.yiftee, $scope.spotery, $scope.inprende, $scope.arranca];
 
 $scope.rowTwo = [$scope.h3, $scope.sunne, $scope.eship, $scope.enfoque];

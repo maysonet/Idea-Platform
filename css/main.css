@@ -240,6 +240,15 @@ a:focus {
 .hero-area .contents .btn {
   margin: 15px;
 }
+
+.hero-area .contents2 .btn {
+  margin: 15px;
+}
+
+.hero-area .contents2 h1 {
+  font-size: 30px;
+  font-weight: 100;
+}
 .appcreatrs {
   background: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75) ),url(../img/code.jpeg) no-repeat;
   background-size: cover;
@@ -333,6 +342,27 @@ a:focus {
 .empowered .contents .btn {
   margin: 15px;
 }
+
+.mentors {
+  background: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75) ),url(../img/hardware.jpeg) no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  color: #fff;
+  padding: 25px 0;
+}
+.mentors .sticky-navigation {
+  background: transparent;
+}
+.mentors .contents h1 {
+  font-size: 30px;
+  font-weight: 100;
+}
+.mentors .contents p {
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
 
 
 .slider-area {
@@ -1181,7 +1211,13 @@ a:focus {
     transition: background-color 0.3s linear 0s, padding 0.3s linear 0s;
   }
 
+#pagetop2{
+  margin-top: -2%;
+    box-shadow: none !important;
+    background-color: transparent;
 
+    transition: background-color 0.3s linear 0s, padding 0.3s linear 0s;
+}
 
   @media (min-width: 768px) {
     .brand-logo {
@@ -1197,4 +1233,8 @@ a:focus {
 
 .side-nav{
   background-color: #064;
+}
+
+#eventapp{
+  width: 100%;
 }

@@ -31,16 +31,6 @@
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 
-    <!-- Social-feed css -->
-    <link href="css/jquery.socialfeed.css" rel="stylesheet" type="text/css">
-    <style type="text/css">
-      .social-feed-element  {
-        max-width: 650px;
-      }
-      .container#box{
-        max-width: 650px;
-
-      }
 
 
     </style>
@@ -59,7 +49,11 @@
            <li><a href="elicit.html">Elicit</a></li>
            <li><a href="achieve.html">Achieve</a></li>
            <li><a href="appcreatrs.html">AppCreatrs</a></li>
-           <li><a href="empowered.html">Empowered</a></li>
+           <li><a href="empowered.html">Empower3D</a></li>
+         </ul>
+         <ul id="dropdown2" class="dropdown-content">
+           <li><a href="elicit.html">Sponsors</a></li>
+           <li><a href="mentors.html">Mentors</a></li>
          </ul>
         <div class="navbar-fixed">
        <nav id="pagetop">
@@ -70,7 +64,7 @@
              <li><a href="index.html">Home</a></li>
              <!-- Dropdown Trigger -->
              <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Tribes<i class="material-icons right">arrow_drop_down</i></a></li>
-             <li><a href="collapsible.html">Backers</a></li>
+             <li><a class="dropdown-button" href="#!" data-activates="dropdown2">Backers<i class="material-icons right">arrow_drop_down</i></a></li>
              <li><a href="mobile.html">Blog</a></li>
              <li><a href="https://www.facebook.com/IdeaPlatformPR/" target="_blank"><i class="fa fa-facebook"></i></a></li>
              <li><a href="https://www.youtube.com/channel/UCGqWjw3iZwTVrORZqVt-o4w" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
@@ -179,10 +173,23 @@
           <h2 class="section-subtitle wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">Most Recent Activities</h2>
         </div>
         <div class="row">
-
-            <div class="social-feed-container"></div>
-
+          <div class="col-sm-6">
+            <img class="materialboxed" id="eventapp" src="img/elicit1.png">
+          </div>
+          <div class="col-sm-6">
+            <img class="materialboxed" id="eventapp" src="img/elicit5.jpg">
+          </div>
         </div>
+        <div class="row">
+          <div class="col-sm-6">
+            <img class="materialboxed" id="eventapp" src="img/elicit3.jpg">
+          </div>
+          <div class="col-sm-6">
+            <img class="materialboxed" id="eventapp" src="img/elicit6.jpg">
+          </div>
+        </div>
+
+
       </div>
     </section>
 
@@ -218,56 +225,10 @@
     <script src="bower_components/moment/min/moment.min.js"></script>
     <!-- Moment Locale to format the date to your language (eg. italian lang)-->
     <script src="bower_components/moment/locale/it.js"></script>
-    <!-- Social-feed js -->
-    <script src="js/jquery.socialfeed.js"></script>
 
 
 
-    <script>
-        $(document).ready(function() {
-            // This command is used to initialize some elements and make them work properly
-            $.material.init();
-            $('.social-feed-container').socialfeed({
-                // FACEBOOK
-                facebook: {
-                    accounts: ['@IdeaPlatformPR'],
-                    limit: 4,
-                    access_token: '150849908413827|a20e87978f1ac491a0c4a721c961b68c'
-                },
 
-                // Twitter
-                twitter: {
-                    accounts: ['@idea_platform'],
-                    limit: 4,
-                    consumer_key: 'qzRXgkI7enflNJH1lWFvujT2P', // make sure to have your app read-only
-                    consumer_secret: '8e7E7gHuTwyDHw9lGQFO73FcUwz9YozT37lEvZulMq8FXaPl8O', // make sure to have your app read-only
-                },
-
-
-                // GENERAL SETTINGS
-                length: 200,
-                show_media: true,
-                // Moderation function - if returns false, template will have class hidden
-                moderation: function(content) {
-                    return (content.text) ? content.text.indexOf('fuck') == -1 : true;
-                },
-                //update_period: 5000,
-                // When all the posts are collected and displayed - this function is evoked
-                callback: function() {
-                    console.log('all posts are collected');
-                }
-            });
-
-        });
-    </script>
-
-
-      <script>
-          $(document).ready(function() {
-              // This command is used to initialize some elements and make them work properly
-              $.material.init();
-          });
-      </script>
 
 
 
