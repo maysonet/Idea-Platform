@@ -45,7 +45,7 @@
           <li><a href="empowered.html">Empower3D</a></li>
         </ul>
         <ul id="dropdown2" class="dropdown-content">
-          <li><a href="sponsors.html">Sponsors</a></li>
+          <li><a href="elicit.html">Sponsors</a></li>
           <li><a href="mentors.html">Mentors</a></li>
         </ul>
        <div class="navbar-fixed">
@@ -68,8 +68,8 @@
     </div>
  <div class="container">
         <div class="contents2 text-left">
-          <h1 class="wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="300ms">Mentors</h1>
-          <h5 class="wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="400ms">Advisory Committee</h5>
+        <h1 class="wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="300ms">Sponsors</h1>
+
 
         </div>
 
@@ -78,33 +78,23 @@
     <section id="about-empowered" class="section">
       <div class="container">
         <div class="section-header">
-          <h4 style="color: #0066cc">Internal Mentors</h4>
+
         </div>
         <div class="row">
+          <div ng-repeat = "p in rowOne"class="col-xs-3 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <div class="client-item-wrapper">
+              <img ng-style="p.style" ng-src="{{p.image}}" />
 
-          <div class="col-md-6 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="650ms">
-              <center><h5>Nayda Santiago, PhD</h5><center>
-                  <img width="50%;"class="responsive-img" src="img/Santiago_Nayda.jpg">
-                  <br></br>
-                <p>
-                  Professor
-                  Software Engineering Mentor
-                </p>
-              </br>
-                <a style="background-color: #0363f4;" href="#features" class="btn btn-lg btn-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="500ms">Visit Website</a>
+            </div>
           </div>
-          <div class="col-md-6 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="750ms">
+        </div>
+        <div class="row">
+          <div ng-repeat = "p in rowTwo"class="col-xs-3 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <div class="client-item-wrapper">
+              <img ng-style="p.style" ng-src="{{p.image}}" />
 
-            <center><h5>José Lugo, PhD</h5><center>
-                <img width="50%;" class="responsive-img" src="img/jose.jpeg">
-                <br></br>
-                <p>
-                  Assistant Professor
-                  Design Thinking and Administrative Mentor
-                </p>
-                <a style="background-color: #0363f4;" href="#features" class="btn btn-lg btn-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="500ms">Visit Website</a>
+            </div>
           </div>
-          
         </div>
       </div>
     </section>
@@ -112,31 +102,11 @@
     <section id="programs-empowered" class="section main-feature-gray">
       <div class="container">
         <div class="section-header">
-          <h4 style="color: #0066cc">External Mentors</h4>
+          <h4 style="color: #0066cc"><!-- Aqui va header --></h4>
         </div>
 
-        <div class="row">
-          <div class="col-md-6 col-sm-6 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">
+        <!-- Aqui va algo pero no se que -->
 
-              <div class="icon hi-icon-effect-3b">
-                <i class="mdi-action-print"></i>
-              </div>
-              <h5>3D Printing</h5>
-              <p>This program is made to help students develop creative and innovative skills in 3D Printing for rapid prototyping. </p>
-
-          </div>
-          <div class="col-md-6 col-sm-6 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="600ms">
-
-              <div class="icon">
-                <i class="mdi-hardware-memory"></i>
-              </div>
-              <h5>Microcontrollers</h5>
-              <p>This program provides students the necessary tools to help them learn how to program electrical circuits for certain hardware related applications.</p>
-
-          </div>
-
-
-        </div>
 
       </div>
     </section>
